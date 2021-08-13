@@ -95,7 +95,6 @@ class Game{
             arrow.addImage(arrowimg);
             arrow.scale=0.4
             arrow.velocityX=-4;
-            arrow.debug=true;
             arrow.setCollider("rectangle",0,0,arrow.width,20)
             arrow.lifetime=350;
             arrowg.add(arrow);
@@ -124,7 +123,6 @@ class Game{
                 posx=270;
             }
             balloon=createSprite(posx,posy,50,50);
-            balloon.debug=true
             posx=posx+50;
 
             // var rande=Math.round(random(1,4));
